@@ -98,16 +98,16 @@
   }
 }
 
+.page-content {
+  text-align: justify;
+}
+
 .post-meta {
   display: block;
   margin-top: -.5em;
   margin-bottom: var(--spacer);
   opacity: .65;
   font-size: .85em;
-}
-
-.post-content {
-  text-align: justify;
 }
 
 .post-categories,
