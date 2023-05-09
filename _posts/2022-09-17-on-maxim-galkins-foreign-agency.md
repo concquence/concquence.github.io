@@ -1,7 +1,7 @@
 ---
 title:  "На иноагентство Максима Галкина"
 date:   2022-09-17 12:00:00 +0600
-tags: repressions, foreign-agency
+tags: oppression foreign-agency
 ---
 Максим Галкин теперь официально [предатель и враг народа](https://www.forbes.ru/society/477373-minust-priznal-inostrannym-agentom-maksima-galkina).
 
