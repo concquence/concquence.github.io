@@ -1,6 +1,5 @@
 ---
-layout: post
-title:  "testing images (image post)"
+title:  "testing images (image post), NLO"
 date:   2023-05-07 00:32:39 +0600
 tags: images
 image: /assets/images/image-default.jpg
