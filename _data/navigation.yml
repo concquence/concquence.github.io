@@ -1,8 +1,8 @@
-- title: About
-  url: /about/
 - title: Archive
   url: /archive/
 # - title: Categories
 #   url: /cat/
 - title: Tags
   url: /tags/
+  - title: About
+  url: /about/
