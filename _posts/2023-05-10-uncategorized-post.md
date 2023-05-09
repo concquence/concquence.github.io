@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post without category"
+title:  "Post without category (ununcategorized-post.md)"
 date:   2023-05-06 23:32:39 +0600
 tags: temp
 ---
