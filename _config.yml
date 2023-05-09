@@ -39,7 +39,7 @@ plugins:
 #paginate_path: "/_site/page:num/"
 #paginate_path: "/blog/page:num/"
 paginate_path: ./page:num/
-paginate: 10
+paginate: 15
 
 defaults:
   -
