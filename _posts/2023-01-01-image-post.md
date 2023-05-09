@@ -2,7 +2,6 @@
 layout: post
 title:  "testing images"
 date:   2023-05-07 00:32:39 +0600
-categories: update
 tags: images
 image: /assets/images/image-default.jpg
 ---
