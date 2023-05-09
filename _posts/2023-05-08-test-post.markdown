@@ -1,7 +1,0 @@
----
-layout: post
-title:  "hello, world! (test-post.markdown)"
-date:   2023-05-09 00:32:39 +0600
-tags: temp
----
-In this post I will showcase some of the “special” features of YAMT. This post is pretty long, so let’s start with a Table of Content (ToC).
