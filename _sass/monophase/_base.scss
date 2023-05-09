@@ -8,6 +8,9 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
+  p {
+    text-align: justify;
+  }
 }
 
 a {
@@ -24,7 +27,6 @@ a {
 p {
   margin-top: 0;
   margin-bottom: var(--spacer);
-  text-align: justify;
 }
 
 ul, ol, dl {
