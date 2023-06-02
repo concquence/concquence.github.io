@@ -41,7 +41,6 @@ plugins:
 paginate_path: ./page:num/
 paginate: 15
 disqus: politopg
-comments: true
 
 defaults:
   -
@@ -50,6 +49,7 @@ defaults:
     values:
       layout: "post"
       categories: "post"
+      comments: true
       
 # Exclude from processing.
 # The following items will not be processed, by default.
