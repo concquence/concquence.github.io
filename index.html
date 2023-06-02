@@ -25,8 +25,9 @@ paginate: true
         {% if post.content contains '<!--more-->' %}
           {{ post.excerpt }}
         {% else %}
-          {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+          {{ post.excerpt | markdownify | strip_html | truncate: 480 }}
         {% endif %}
+        <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
       </p>
     </div>
   {% endfor %}
