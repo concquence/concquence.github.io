@@ -27,7 +27,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-disqus: politopg
 
 # Build settings
 #theme: minima SLF
@@ -41,6 +40,8 @@ plugins:
 #paginate_path: "/blog/page:num/"
 paginate_path: ./page:num/
 paginate: 15
+disqus: politopg
+comments: true
 
 defaults:
   -
