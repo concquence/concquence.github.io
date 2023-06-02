@@ -22,10 +22,10 @@ paginate: true
       <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
 
       <p class="post-excerpt">
-        {% if post.description %}
-          {{ post.description | strip_html }}
+        {% if post.content contains '<!--more-->' %}
+          {{ post.excerpt }}
         {% else %}
-          {{ post.excerpt | strip_html }}
+          {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
         {% endif %}
       </p>
     </div>
