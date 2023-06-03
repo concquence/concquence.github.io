@@ -29,7 +29,7 @@ paginate: true
         {% endif %}
       </p>
       <p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ "Read more" | upcase }}&nbsp;&#183;{% include read-time.html content=post.content %}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ "Read more" | upcase }}&nbsp;&#183;{% include read-time.html content=post.content | upcase %}</a>
       </p>
     </div>
   {% endfor %}
