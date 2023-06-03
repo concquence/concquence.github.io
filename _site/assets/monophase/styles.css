@@ -3,7 +3,7 @@
   --spacer-2: calc(var(--spacer) * 2);
   --spacer-3: calc(var(--spacer) * 3);
   --body-font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  --body-font-size: 16px;
+  --body-font-size: 18px;
   --body-line-height: 1.5;
   --border-radius: .5em;
   --code-font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
