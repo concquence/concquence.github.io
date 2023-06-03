@@ -47,6 +47,8 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height); }
+  body p {
+    text-align: justify; }
 
 a {
   color: var(--link-color);
@@ -190,9 +192,9 @@ abbr {
  */
 .posts .post {
   padding: var(--spacer);
-  margin-bottom: var(--spacer);
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius); }
+  margin-bottom: var(--spacer); }
+  .posts .post p {
+    text-align: justify; }
   .posts .post .post-excerpt {
     margin-bottom: 0; }
 

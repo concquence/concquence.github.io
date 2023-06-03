@@ -35,6 +35,7 @@ remote_theme: zivhub/monophase@main
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 #paginate_path: "/_site/page:num/"
 #paginate_path: "/blog/page:num/"
