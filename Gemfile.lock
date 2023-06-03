@@ -76,6 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-paginate
+  jekyll-seo-tag
   monophase!
   webrick (~> 1.8)
 
