@@ -43,7 +43,7 @@ paginate_path: ./page:num/
 paginate: 15
 
 # Disqus Comments
-# disqus: politopg
+disqus: politopg
 
 defaults:
   -
@@ -52,7 +52,7 @@ defaults:
     values:
       layout: "post"
       categories: "post"
-#      comments: true
+      comments: true
       
 # Exclude from processing.
 # The following items will not be processed, by default.
