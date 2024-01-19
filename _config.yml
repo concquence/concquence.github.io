@@ -43,7 +43,7 @@ paginate_path: ./page:num/
 paginate: 15
 
 # Disqus Comments
-disqus: politopgs
+disqus: politopg
 
 defaults:
   -
