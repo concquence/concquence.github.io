@@ -20,17 +20,17 @@ paginate: true
       </h2>
 
       <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
-
-      <p class="post-excerpt">
-        {% if post.content contains '<!--more-->' %}
-          {{ post.excerpt }}
-        {% else %}
-          {{ post.excerpt | markdownify | strip_html | truncate: 680 }}
-        {% endif %}
-      </p>
-      <p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ "Read more" | upcase }}&nbsp;&#183;{% include read-time.html content=post.content %}</a>
-      </p>
+      {{ post.content }}
+<!--      <p class="post-excerpt">-->
+<!--        {% if post.content contains '&lt;!&ndash;more&ndash;&gt;' %}-->
+<!--          {{ post.excerpt }}-->
+<!--        {% else %}-->
+<!--          {{ post.excerpt | markdownify | strip_html | truncate: 680 }}-->
+<!--        {% endif %}-->
+<!--      </p>-->
+<!--      <p>-->
+<!--        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ "Read more" | upcase }}&nbsp;&#183;{% include read-time.html content=post.content %}</a>-->
+<!--      </p>-->
     </div>
   {% endfor %}
 </div>
