@@ -1,0 +1,8 @@
+- title: List
+  url: /list/
+# - title: Categories
+#   url: /cat/
+- title: Topics
+  url: /topics/
+- title: About
+  url: /about/

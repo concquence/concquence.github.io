@@ -1,0 +1,17 @@
+{% comment%}
+This file truncates lenthy posts on the homepage
+{% endcomment %}
+
+{% assign words = include.content | strip_html | number_of_words %}
+{% assign words_truncate = 160 %}
+{% assign words_threshold = 300 %}
+{% if words < words_threshold %}
+  {{ post.content }}
+{% else %}
+  <p class="post-excerpt">
+  {{ include.content | markdownify | truncatewords: words_truncate }}
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ "Read more" | upcase }}&nbsp;&#183;{% include read-time.html content=post.content %}</a>
+  </p>
+{% endif %}
